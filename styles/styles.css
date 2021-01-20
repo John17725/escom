@@ -1,15 +1,29 @@
+:root{
+	--blanco: #ffffff;
+	--oscuro: #212121;
+	--primario: #0F52BA;
+	--secundario: #0080FF;
+	--background: #81D8D0;
+}
+
 html{
 	font-size: 62.5%;
+	background: var(--background);
+	font-family: 'Yusei Magic', sans-serif;
+	font-weight: normal;
 }
 
 body{
 	font-size: 16px;
+
 }
 
 h1{
 	text-align: center;
 	font-size: 3.8rem;
-	color: blue;
+	color: var(--primario);
+	font-family: 'Yusei Magic', sans-serif;
+
 }
 
 h1 > span{
