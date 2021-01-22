@@ -10,6 +10,10 @@
 html{
 	font-size: 62.5%;
 	background: var(--blanco);
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
 }
 
 body{
@@ -29,14 +33,10 @@ body{
 
 }
 
-.titulo{
-	/*font-size: 2rem;*/
-}
-
 .contenedor{
 	max-width: 120rem;
 	margin: 0 auto;
-	
+
 }
 
 
@@ -73,10 +73,19 @@ body{
 }
 
 .hero{
+
 	background-image: url(../img/img_fondo_index.jpg);
 	background-repeat: no-repeat;
 	background-size: cover; 
 	height: 500px ;
+	padding: 20px;
+}
+
+.contenido-hero{
+	color: var(--blanco);
+	background: var(--secundario);
+	background-color: transparent;
+
 }
 
 @media(min-width: ) {
