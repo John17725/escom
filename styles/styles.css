@@ -1,9 +1,10 @@
 :root{
 	--blanco: #ffffff;
-	--oscuro: #212121;
+	--oscuro: #04080F;
 	--primario: #0F52BA;
-	--secundario: #0080FF;
-	--background: #81D8D0;
+	--secundario: #A1C6EA;
+	--azul_royal: #111E6C;
+	--background: #DAE3E5;
 }
 
 html{
@@ -31,6 +32,22 @@ h1 > span{
 
 }
 
+.contenedor{
+	width: 120rem;
+	margin: 0 auto;
+}
+
 .navegacion-principal{
-	background-color: var(--secundario);
+	padding: 1rem;	
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-bg{
+	background-color: var(--secundario);	
+}
+
+.navegacion-principal a{
+	color: var(--blanco);
+	text-decoration:none;
 }
